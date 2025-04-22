@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechTutor Bot</title>
+  <link rel="icon" type="image/png" href="./img/logo.webp">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Group Member Card -->
+    <div class="group-card">
+      <h2>Group Members</h2>
+      <ul>
+        <li><strong>Abhishek Kumar Singh</strong><br>Reg No: 12307438</li>
+        <li><strong>JeevanSingh</strong><br>Reg No: 12306128</li>
+        <li><strong>Srinivas</strong><br>Reg No: 12308069</li>
+      </ul>
+    </div>
+
+    <div id="brand" style="display: flex; align-items: center; gap: 12px;">
+      <img src="./img/newbot1.jpg" id="logo" height="80" alt="TechTutor Logo">
+      <h1>TechTutor Bot</h1>
+    </div>
+
+    <div class="chat-container"></div>
+
+    <div class="controls">
+      <input type="text" id="prompt" placeholder="Ask anything related to Technology...">
+      <button id="mic"><img src="./img/mic-logo.png" alt="Mic" width="20"></button>
+      <button id="image">
+        <img src="./img/upload.jpg" alt="Upload">
+        <input type="file" accept="images/*" hidden>
+      </button>
+      <button id="submit"><img src="./img/sendicons.jpg" alt="Send" width="50"></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
